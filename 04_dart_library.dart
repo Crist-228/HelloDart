@@ -102,3 +102,8 @@ void dartcore_numbers_numbers_collections_strings_and_more() {
   assert(!allCharacters.contains(numbers));
   assert(someDigits.contains(numbers));
 }
+
+void main(){
+  dartcore_numbers_numbers_collections_strings_and_more();
+  print("done!");
+}
